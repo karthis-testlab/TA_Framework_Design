@@ -5,3 +5,4 @@
 target/
 doc/
 test-output/
+.vscode

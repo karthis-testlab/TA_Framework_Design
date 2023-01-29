@@ -22,6 +22,7 @@ public class ServiceNowAppTest {
 		ServiceNowApiAdapter api = new ServiceNowApiAdapter(url, path, headers, userName, password);
 		
 		ui.startApp(url);
+		ui.login(userName, password);
 		ui.creatIncident();
 		api.verifyIncident("INC0010008");
 		

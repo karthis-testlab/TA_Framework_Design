@@ -21,8 +21,7 @@ public class ServiceNowApiAdapter implements ServiceNowApp {
 		this.basePath = basePath;
 	}
 
-	public void creatIncident() {
-		
+	public void creatIncident() {		
 	}
 
 	public void verifyIncident(String incidentNumber) {		
@@ -47,9 +46,7 @@ public class ServiceNowApiAdapter implements ServiceNowApp {
 	public void startApp(String url) {
 	}
 
-	public void login(String userName, String password) {
-		// TODO Auto-generated method stub
-		
+	public void login(String userName, String password) {		
 	}
 
 }
